@@ -1,0 +1,164 @@
+
+
+
+Padding:-
+
+
+Padding from all side of element:-
+
+<div class="p-6">p-6</div>
+
+
+
+adding each side with specific value :-
+pt = padding-top
+pr = padding-right
+pb = padding-bottom
+pl = padding-left
+
+<div class="pt-6">pt-6</div>
+<div class="pr-4">pr-4</div>
+<div class="pb-8">pb-8</div>
+<div class="pl-2">pl-2</div>
+
+
+
+px for padding from left and right:-
+<p className="px-5">Product Information</p>
+
+
+
+py for padding from top and bottom:-
+<p className="py-5">Product Information</p>
+
+
+
+pdding with specified value:-
+<div class="p-[5px] ">asdf</div>
+
+
+
+Using logical properties:-
+when ltr direction then start is left and end is right.
+for rtl direction then start is right and end is left.
+
+<div>
+  <div dir="ltr">
+    <div class="ps-8 ...">ps-8</div>
+    <div class="pe-8 ...">pe-8</div>
+  </div>
+  <div dir="rtl">
+    <div class="ps-8 ...">ps-8</div>
+    <div class="pe-8 ...">pe-8</div>
+  </div>
+</div>
+
+
+
+Responsive design:
+
+<div class="py-4 md:py-8 ...">asdf</div>
+
+
+
+
+
+
+Margin:-
+
+
+Margin from all side of element:-
+
+<div class="m-6">m-6</div>
+
+
+
+adding each side with specific value :-
+mt = Margin-top
+mr = Margin-right
+mb = Margin-bottom
+ml = Margin-left
+
+<div class="mt-6">pt-6</div>
+<div class="mr-4">pr-4</div>
+<div class="mb-8">pb-8</div>
+<div class="ml-2">pl-2</div>
+
+
+
+mx for margin from left and right:-
+<p className="mx-5">Product Information</p>
+
+
+
+my for margin from top and bottom:-
+<p className="py-5">Product Information</p>
+
+
+
+margin with specified value:-
+<div class="m-[5px] ">asdf</div>
+
+
+
+Using logical properties:-
+when ltr direction then start is left and end is right.
+for rtl direction then start is right and end is left.
+
+<div>
+  <div dir="ltr">
+    <div class="ms-8 ...">ms-8</div>
+    <div class="me-8 ...">me-8</div>
+  </div>
+  <div dir="rtl">
+    <div class="ms-8 ...">ms-8</div>
+    <div class="me-8 ...">me-8</div>
+  </div>
+</div>
+
+
+
+Responsive design:-
+
+<div class="my-4 md:my-8 ...">asdf</div>
+
+
+
+Using negative values:-
+
+<div class="-mt-8 bg-sky-300 ...">-mt-8</div>
+<div class="-mb-8 bg-sky-300 ...">-mt-8</div>
+
+
+Adding space between children:- Can; be added for both x and y axis
+
+<div class="flex space-x-40 ">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+
+
+
+
+Color:
+
+<p class="text-[#50d71e] ...">Lorem ipsum dolor sit amet...</p>
+
+<p className="text-(--my-color)">Product Information</p>
+
+<p className="text-gray-400">Product Information</p>
+
+
+<p className="text-gray-400 dark:text-(--my-color)">Product Information</p>
+<p className="text-gray-400 dark:text-yellow-500">Product Information</p>
+
+
+
+
+
+
+
+
+
+
